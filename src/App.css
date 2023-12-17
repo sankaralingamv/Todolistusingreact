@@ -1,0 +1,131 @@
+.App-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.App-header h5 {
+  font-size: 1rem;
+}
+
+/* Form Styling */
+.left {
+  width: 50%;
+  float: left;
+}
+
+.form-label {
+  font-size: 1.2rem;
+}
+
+textarea.form-control {
+  height: 150px;
+}
+
+#msg {
+  color: red;
+}
+
+/* Posts Styling */
+.right {
+  width: 50%;
+  float: left;
+  padding-left: 20px;
+}
+
+/* Post Styling */
+.post {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  margin-bottom: 10px;
+  position: relative; /* Added to position buttons relative to the post */
+}
+
+/* Post Text Styling */
+.post p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Options (Edit and Delete Buttons) Styling */
+.options {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Edit Button Styling */
+.options .fas.fa-edit {
+  cursor: pointer;
+  color: #007bff;
+  margin-right: 10px;
+}
+
+/* Delete Button Styling */
+.options .fas.fa-trash-alt {
+  cursor: pointer;
+  color: #dc3545;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0 50px;
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+}
+
+#posts {
+  width: 400px;
+}
+
+#posts div {
+  display: flex;
+  justify-content: space-between;
+}
+
+i {
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  min-width: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
